@@ -1039,9 +1039,19 @@ a:hover {
 }
 
 @media (max-width: 479px) {
+  .paragraph {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .paragraph.lead-text {
+    font-size: 21px;
+  }
   .grid-4 {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+  .work-title {
+    line-height: 42px;
   }
   .div-block-2 {
     margin-right: 4%;
@@ -1054,6 +1064,13 @@ a:hover {
   .container-2 {
     padding-right: 4%;
     padding-left: 4%;
+  }
+  .heading-2 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .paragraph-2 {
+    line-height: 24px;
   }
 }
 
